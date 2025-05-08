@@ -258,20 +258,20 @@ Continue with system configuration (timezone, locale, etc.) </p>
 <p className="text-zinc-300 mt-4">
 Localization </p>
 <CodeBlock code={`locale-gen
-# echo "LANG=en_US.UTF-8" | sudo tee /etc/locale.conf > /dev/null"`}language="bash"/>
+# echo "LANG=en_US.UTF-8" | sudo tee /etc/locale.conf > /dev/null`}language="bash"/>
 
 <p className="text-zinc-300 mt-4">
 Optional) If you want the console keyboard layout, </p>
-<CodeBlock code={`"# echo "KEYMAP=de-latin1" | sudo tee /etc/vconsole.conf > /dev/null"`}language="bash"/>
+<CodeBlock code={`"# echo "KEYMAP=de-latin1" | sudo tee /etc/vconsole.conf > /dev/null`}language="bash"/>
 
 <p className="text-zinc-300 mt-4">
 Network Configuration, </p>
 <h5 className="text-zinc-300 mt-4"> Replace 'arch' with your hostname</h5>
-<CodeBlock code={`# echo "arch" | sudo tee /etc/hostname > /dev/null"`}language="bash"/>
+<CodeBlock code={`# echo "arch" | sudo tee /etc/hostname > /dev/null`}language="bash"/>
 
 <p className="text-zinc-300 mt-4">
 Not really required but recommended to create a new initramfs </p>
-<CodeBlock code={`# mkinitcpio -P"`}language="bash"/>
+<CodeBlock code={`# mkinitcpio -P`}language="bash"/>
 
 <p className="text-zinc-300 mt-4">
 Set root password </p>
@@ -283,7 +283,7 @@ Install an AUR Helper of your choice (We'll use paru for now) (Optional but requ
 <CodeBlock code={`# pacman -Syu --needed git base base-devel
 # git clone https://aur.archlinux.org/paru.git
 # cd paru
-# makepkg -si --noconfirm"`}language="bash"/>
+# makepkg -si --noconfirm`}language="bash"/>
 
 <p className="text-zinc-300 mt-4">
 Install sudo </p>
