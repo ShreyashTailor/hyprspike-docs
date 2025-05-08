@@ -294,8 +294,7 @@ Create a new user with sudo access</p>
 
 <CodeBlock
 code={`
-# sudo useradd -m -G wheel -s /bin/bash usernakm
-e
+# sudo useradd -m -G wheel -s /bin/bash username
 # passwd username
 `}
 language="bash" />
