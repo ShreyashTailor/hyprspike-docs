@@ -30,5 +30,8 @@ We don’t just code — we iterate fast, design thoughtfully, and believe that 
 
 ## Feedback
 
-If you have any feedback, please reach out to us at TeamOp1969@protonmail.com
+If you have any feedback, please reach out to us at shreyash@beap.studio or arch@beap.studio.
+
+
+Thank you!
 
